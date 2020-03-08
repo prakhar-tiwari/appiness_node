@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/:id?', async (req, res, next) => {
     let categories = new Category();
-    const id = (req.params.id === 'favicon.ico') ? 1 : req.params.id;
+    const id = (!req.params.id || req.params.id === 'favicon.ico') ? 1 : req.params.id;
     try {
 
         const allCategories = await categories.getAllCategories();
