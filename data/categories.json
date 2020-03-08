@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "type":"Men",
+        "products":[
+            1,2,3,4
+        ]
+    },
+    {
+        "id":2,
+        "type":"Women",
+        "products":[
+            4,5,10
+        ]
+    },
+    {
+        "id":3,
+        "type":"Kids",
+        "products":[
+            8,9
+        ]
+    },
+    {
+        "id":4,
+        "type":"Miscellaneous",
+        "products":[
+           6,7
+        ]
+    }
+]

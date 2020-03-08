@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "title":"Shirts",
+        "description":"Formal Shirt for office",
+        "price":"450"
+    },
+    {
+        "id":2,
+        "title":"T-Shirts",
+        "description":"Casual party wear for men",
+        "price":"800"
+    },
+    {
+        "id":3,
+        "title":"Blazer",
+        "description":"Slim formal blazer for men",
+        "price":"4000"
+    },
+    {
+        "id":4,
+        "title":"Jeans",
+        "description":"Party wear jeans",
+        "price":"700"
+    },
+    {
+        "id":5,
+        "title":"Handbag",
+        "description":"Multicolored handbags for women",
+        "price":"999"
+    },
+    {
+        "id":6,
+        "title":"Travel bag",
+        "description":"American tourister handbags",
+        "price":"7000"
+    },
+    {
+        "id":7,
+        "title":"Televisions",
+        "description":"Full HD 4k LED tv",
+        "price":"25000"
+    },
+    {
+        "id":8,
+        "title":"Remote control Car",
+        "description":"Toys for kids between age 5-8",
+        "price":"2500"
+    },
+    {
+        "id":9,
+        "title":"Dolls",
+        "description":"Barbie dolls for kids",
+        "price":"500"
+    },
+    {
+        "id":10,
+        "title":"Leggings",
+        "description":"Denim women leggings",
+        "price":"750"
+    }
+]

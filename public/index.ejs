@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Sidebar 02</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+
+        <!-- Sidebar -->
+        <div class="bg-light border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading">Categories </div>
+            <div class="list-group list-group-flush">
+                <% for(let i=0 ;i < categories.length ; i++) { %>
+                <a href="/<%= categories[i].id %>"
+                    class="list-group-item list-group-item-action bg-light"><%= categories[i].type %></a>
+                <% } %>
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <% for(let i=0 ; i < products.length;i++) { %>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><%= products[i].title %></h4>
+                        <p class="card-text"><%= products[i].description %></p>
+                        <p class="card-text"><em>Rs <%= products[i].price %></em></p>
+                    </div>
+                </div>
+                <% } %>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
